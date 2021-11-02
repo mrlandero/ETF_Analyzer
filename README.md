@@ -132,3 +132,10 @@ The following is the top of the web application generated:
 Once we have all of these analyses in place, we can further analyze the effectiveness of this ETF we created.
 
 ---
+
+## Contributors
+
+**Created by:** Tony Landero<br>
+**Email Adress:** mr.landero@gmail.com
+
+---
