@@ -85,3 +85,50 @@ If Voilà successfully installed, voila and its version number will display in y
 
 ![List Voila](list_voila.png)
 
+---
+
+## Usage
+
+To use the loan qualifier application simply clone the repository and run the **etf_analyzer.py** with:
+
+```python
+python etf_analyzer.py
+```
+
+This application will generate a voila web app with the following important analyses:
+
+Writing a SQL query to join each table in the portfolio into a single DataFrame:
+
+![Join SQL Analysis](join_sql_analysis.png)
+
+This way we can analyze all tables in our database at once and not have to jump from table to table.
+
+Creating a DataFrame that averages the “daily_returns” columns for all four assets:
+
+![Daily Returns Analysis](daily_returns_analysis.png)
+
+Using the average daily returns in the etf_portfolio_returns DataFrame to calculate the annualized returns for the portfolio:
+
+![Annualized Returns Analysis](annualized_returns_analysis.png)
+
+Using the average daily returns in the etf_portfolio_returns DataFrame to calculate the cumulative returns of the ETF portfolio:
+
+![Cumulative Returns Analysis](cumulative_returns_analysis.png)
+
+Using hvPlot, create an interactive line plot that visualizes the cumulative return values of the ETF portfolio:
+
+![Cumulative Plot Analysis](cumulative_plot_analysis.png)
+
+Finally, we convert our code into a web application by using Voila. Type in the following code in your terminal to complete this step:
+
+```python
+voila etf_analyzer.ipynb
+```
+
+The following is the top of the web application generated:
+
+![Voila Web Application](voila_page_one.png)
+
+Once we have all of these analyses in place, we can further analyze the effectiveness of this ETF we created.
+
+---
