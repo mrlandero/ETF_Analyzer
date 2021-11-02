@@ -139,3 +139,7 @@ Once we have all of these analyses in place, we can further analyze the effectiv
 **Email Adress:** mr.landero@gmail.com
 
 ---
+
+## License
+
+MIT
